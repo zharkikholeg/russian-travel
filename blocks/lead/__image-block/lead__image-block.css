@@ -1,0 +1,7 @@
+.lead__image-block {
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+  margin: auto;
+}

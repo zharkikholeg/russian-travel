@@ -1,0 +1,30 @@
+.page {
+  max-width: 1280px;
+  background-color: #2a2c2f;
+  margin: auto;
+  font-family: Inter;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+@media (max-width : 1280px) {
+  .page {
+    max-width: 1024px;
+  }
+}
+
+
+@media (max-width : 1024px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+
+@media (max-width : 768px) {
+  .page {
+    max-width: 100%;
+  }
+}

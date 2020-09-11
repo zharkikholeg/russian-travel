@@ -1,0 +1,12 @@
+.header {
+  padding: 28px 48px 0 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width : 425px) {
+  .header {
+    padding: 28px 8px 0 8px;
+  }
+}
