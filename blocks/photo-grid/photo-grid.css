@@ -3,32 +3,29 @@
   margin-top: 92px;
   display: grid;
   width: 1184px;
-  height: 671px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
 }
 
 
-@media (max-width : 1280px) {
+@media (max-width : 1220px) {
   .photo-grid {
-    width: 928px;
-    height: 942px;
+    width: 90%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
 }
 
-@media (max-width : 1024px) {
+@media (max-width : 950px) {
   .photo-grid {
-    width: 720px;
-    height: 1664px;
+    width: 90%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
 }
 
-@media (max-width : 768px) {
+@media (max-width : 425px) {
   .photo-grid {
     width: 90%;
     height: auto;

@@ -4,7 +4,7 @@
   margin-top: 48px;
 }
 
-@media (max-width : 768px) {
+@media (max-width : 650px) {
   .place__row {
     flex-direction: column;
     margin:auto;

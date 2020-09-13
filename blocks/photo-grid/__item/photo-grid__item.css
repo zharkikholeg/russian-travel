@@ -5,13 +5,13 @@
 
 @media (max-width : 1280px) {
   .photo-grid__item {
-    max-width: 300px;
+    max-width: 100%;
   }
 }
 
 @media (max-width : 1024px) {
   .photo-grid__item {
-    max-width: 352px;
+    max-width: 100%;
   }
 }
 

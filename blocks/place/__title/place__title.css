@@ -3,23 +3,24 @@
   line-height: 76px;
   margin: 0;
   width: 460px;
+  font-weight: 900;
 }
 
-@media (max-width : 1280px) {
+@media (max-width : 1024px) {
   .place__title {
     width: 440px;
   }
 }
 
 
-@media (max-width : 1024px) {
+@media (max-width : 950px) {
   .place__title {
     width: 340px;
   }
 }
 
 
-@media (max-width : 425px) {
+@media (max-width : 650px) {
   .place__title {
     width: 80%;
     font-size: 32px;

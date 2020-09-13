@@ -10,7 +10,8 @@
   opacity: 0.8;
 }
 
-@media (max-width : 768px) {
+
+@media (max-width : 600px) {
 
   .footer__link {
     padding: 32px 0 0 16px;
@@ -21,4 +22,15 @@
   .footer__link:nth-child(1) {
     padding-top: 0;
   }
+}
+
+
+@media (max-width : 750px) {
+
+  .footer__link {
+    font-size: 14px;
+    padding: 0 14px 0 0;
+  }
+
+
 }

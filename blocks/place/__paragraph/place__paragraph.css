@@ -10,14 +10,14 @@
 }
 
 
-@media (max-width : 1024px) {
+@media (max-width : 950px) {
   .place__paragraph {
     max-width: 352px;
     margin: 0 0 0 28px;
   }
 }
 
-@media (max-width : 768px) {
+@media (max-width : 650px) {
   .place__paragraph {
     width: 100%;
     margin: auto;

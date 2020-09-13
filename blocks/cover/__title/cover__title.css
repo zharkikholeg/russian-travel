@@ -10,14 +10,16 @@
   align-self: center;
   text-decoration: none;
   color: #fff;
+  font-weight: 900;
 }
 
 
-@media (max-width : 1280px) {
+@media (max-width : 600px) {
   .cover__title {
     font-size: 30px;
     line-height: 1.15;
-    margin-top: 85px;
+    align-self: center;
+    margin-top: 150px;
     max-width: 70%;
   }
 }

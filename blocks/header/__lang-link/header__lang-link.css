@@ -9,5 +9,8 @@
 
 .header__lang-link:nth-child(1) {
   padding-right: 18px;
-  text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }

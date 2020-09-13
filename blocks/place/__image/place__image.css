@@ -3,22 +3,23 @@
 }
 
 
-@media (max-width : 1280px) {
+@media (max-width : 1024px) {
 
 
   .place__image {
-    max-width: 440px;
+    width: 440px;
+    height: 440px;
   }
 }
 
-@media (max-width : 1024px) {
+@media (max-width : 950px) {
   .place__image {
     width: 340px;
-    height: 352px;
+    height: 340px;
   }
 }
 
-@media (max-width : 768px) {
+@media (max-width : 650px) {
   .place__image {
     width: 100%;
     max-width: 100%;

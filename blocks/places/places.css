@@ -6,11 +6,17 @@
 
 @media (max-width : 1024px) {
   .places {
-    width: 720px;
+    width: 90%;
   }
 }
 
 @media (max-width : 768px) {
+  .places {
+    width: 90%;
+  }
+}
+
+@media (max-width : 425px) {
   .places {
     width: 100%;
   }
