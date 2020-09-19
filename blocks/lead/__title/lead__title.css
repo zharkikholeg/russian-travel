@@ -8,9 +8,8 @@
 }
 
 
-@media (max-width : 768px) {
+@media (max-width : 750px) {
   .lead__title {
-    max-width: 80%;
     font-size: 52px;
     line-height: 54px;
   }
@@ -19,8 +18,7 @@
 
 @media (max-width : 425px) {
   .lead__title {
-    max-width: 80%;
     font-size: 40px;
-    line-height: 1.15;
+    line-height: 1.1;
   }
 }

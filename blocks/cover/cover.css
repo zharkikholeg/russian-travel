@@ -5,14 +5,11 @@
 }
 
 
-@media (max-width : 1280px) {
+@media (max-width : 1279px) {
   .cover {
     width: 100%;
   }
 }
 
-@media (max-width : 768px) {
-  .cover {
-    width: 100%;
-  }
+
 }

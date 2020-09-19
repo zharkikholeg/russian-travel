@@ -14,14 +14,29 @@
 }
 
 
-@media (max-width : 600px) {
+@media (max-width : 768px) {
   .cover__title {
-    font-size: 30px;
+    font-size: 72px;
     line-height: 1.15;
-    align-self: center;
-    margin-top: 150px;
-    max-width: 70%;
+    margin-top: 115px;
+    width: 560px;
   }
 }
 
 
+@media (max-width : 600px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 70px;
+    width: 70%;
+  }
+}
+
+
+@media (max-width : 425px) {
+  .cover__title {
+    margin-top: 33px;
+    width: 288px;
+  }
+}

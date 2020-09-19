@@ -5,9 +5,17 @@
   font-weight: 900;
 }
 
-@media (max-width : 768px) {
+@media (max-width : 730px) {
   .intro__title {
     font-size: 36px;
     line-height: 1.15;
+  }
+}
+
+
+@media (max-width : 450px) {
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
   }
 }

@@ -15,5 +15,9 @@
 @media (max-width : 425px) {
   .cover__subtitle {
     max-width: 80%;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 16px;
   }
 }
+
